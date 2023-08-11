@@ -14,3 +14,10 @@ Stacked PRs, also know as dependent, incremental, or chained PRs, are pull reque
 
 > Note: Stacked PRs are useful when wanting to split large pull requests. The other situation where stacked PRs really shine is when you want to use a particular change. in two or more branches.
 [![StackedPR's](https://blog.logrocket.com/wp-content/uploads/2021/04/migrate-pages-components-branched.png)](https://blog.logrocket.com/wp-content/uploads/2021/04/migrate-pages-components-branched.png)
+
+
+### Reverting a Huge PR
+
+  - git reset --soft main (or the current base PR)
+  - git restore --staged . (to remove everything from the stage area)
+  - finally start adding to the stage area what belongs to the current branch and move to Stacked PRs
