@@ -16,6 +16,14 @@ Stacked PRs, also know as dependent, incremental, or chained PRs, are pull reque
 [![StackedPR's](https://blog.logrocket.com/wp-content/uploads/2021/04/migrate-pages-components-branched.png)](https://blog.logrocket.com/wp-content/uploads/2021/04/migrate-pages-components-branched.png)
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
 ### Reverting a Huge PR
 
   - git reset --soft main (or the current base PR)
